@@ -1,0 +1,25 @@
+CRISP-DM:
+
+BUSINESS UNDERSTANDING:
+
+This is a table about credit card fraud or unpayment.
+It is about 28 periods, suppositly months.
+
+DATA UNDERSTANDING:
+
+The data is clear and neat, no missing values in it. It is about 284800 persons and the credit default are on 28 periods.
+
+DATA PREPARATION:
+
+No data preparation just controlling that there is no missing values.
+
+MODELING:
+
+Using sklearn Pandas and matplotlib, a supervised linear regression estimation was done on the model, test sample was about 30%.
+r_squared was calculated and the predictions.
+
+A description of the main statistics ratios for the model were given, mean, std, min, max percintile.
+
+A Pearson correlation was also given linking the amount of the fraud to each period.
+
+A graph ploting the amount of the fraud was given at the end. 
